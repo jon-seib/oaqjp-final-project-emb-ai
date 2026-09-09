@@ -1,0 +1,10 @@
+theia@theiadocker-jonseib:/home/project/final_project$ python3
+Python 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> result = emotion_detector("I am so happy I am doing this project!")
+>>> print(result)
+{"emotionPredictions":[{"emotion":{"anger":0.0037874314, "disgust":0.0014713964, "fear":0.008882041, "joy":0.997566, "sadness":0.0077353534}, "target":"", "emotionMentions":[{"span":{"begin":0, "end":38, "text":"I am so happy I am doing this project!"}, "emotion":{"anger":0.0037874314, "disgust":0.0014713964, "fear":0.008882041, "joy":0.997566, "sadness":0.0077353534}}]}], "producerId":{"name":"Ensemble Aggregated Emotion Workflow", "version":"0.0.1"}}
+>>> 
+[2]+  Stopped                 python3
+theia@theiadocker-jonseib:/home/project/final_project$
