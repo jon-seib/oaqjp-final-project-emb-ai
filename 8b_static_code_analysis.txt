@@ -1,0 +1,44 @@
+theia@theiadocker-jonseib:/home/project/oaqjp-final-project-emb-ai$ pylint server.py
+************* Module server
+server.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:23:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:31:0: C0304: Final newline missing (missing-final-newline)
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+
+theia@theiadocker-jonseib:/home/project/oaqjp-final-project-emb-ai$ pylint server.py
+************* Module server
+server.py:28:0: C0304: Final newline missing (missing-final-newline)
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 5.00/10, +2.14)
+
+theia@theiadocker-jonseib:/home/project/oaqjp-final-project-emb-ai$ pylint server.py
+************* Module server
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.86/10 (previous run: 7.14/10, +0.71)
+
+theia@theiadocker-jonseib:/home/project/oaqjp-final-project-emb-ai$ pylint server.py
+************* Module server
+server.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.57/10 (previous run: 7.86/10, +0.71)
+
+theia@theiadocker-jonseib:/home/project/oaqjp-final-project-emb-ai$ pylint server.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.57/10, +1.43)
